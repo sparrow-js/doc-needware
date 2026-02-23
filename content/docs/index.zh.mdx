@@ -8,30 +8,6 @@ title: OpenClaw 远程部署文档
 
 ## 渠道接入
 
-- [Feishu (飞书)](/docs/feishu) — 通过 WebSocket 长连接接入飞书/Lark 机器人
-
-## 快速开始
-
-安装 OpenClaw 后，运行初始化向导：
-
-```bash
-openclaw onboard
-```
-
-向导会引导你完成：
-
-1. 选择并配置消息渠道（如飞书）
-2. 设置应用凭据
-3. 启动网关服务
-
-## 常用命令
-
-| 命令 | 说明 |
-| --- | --- |
-| `openclaw gateway status` | 查看网关状态 |
-| `openclaw gateway install` | 安装/启动网关服务 |
-| `openclaw gateway stop` | 停止网关服务 |
-| `openclaw gateway restart` | 重启网关服务 |
-| `openclaw logs --follow` | 实时查看网关日志 |
-| `openclaw channels add` | 添加消息渠道 |
-| `openclaw plugins install <plugin>` | 安装插件 |
+- [Discord](/docs/discord) — 通过官方 Discord 机器人网关支持私信和服务器文字频道
+- [飞书安装](/docs/feishu) — 通过 WebSocket 长连接接入飞书/Lark 机器人，支持私聊与群组
+- [Telegram 安装](/docs/telegram) — 通过 grammY 支持私信和群组，长轮询或 webhook 可选

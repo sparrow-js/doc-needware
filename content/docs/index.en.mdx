@@ -8,31 +8,6 @@ Welcome to the OpenClaw remote deployment documentation. This guide will help yo
 
 ## Channel Integration
 
-- [Feishu (Lark)](/docs/feishu) — Connect to Feishu/Lark bot via WebSocket long connection
-
-## Quick Start
-
-After installing OpenClaw, run the onboarding wizard:
-
-```bash
-openclaw onboard
-```
-
-The wizard will guide you through:
-
-1. Selecting and configuring a messaging channel (e.g., Feishu)
-2. Setting up application credentials
-3. Starting the gateway service
-
-## Common Commands
-
-| Command | Description |
-| --- | --- |
-| `openclaw gateway status` | Check gateway status |
-| `openclaw gateway install` | Install/start gateway service |
-| `openclaw gateway stop` | Stop gateway service |
-| `openclaw gateway restart` | Restart gateway service |
-| `openclaw logs --follow` | Tail gateway logs in real-time |
-| `openclaw channels add` | Add a messaging channel |
-| `openclaw plugins install <plugin>` | Install a plugin |
-
+- [Discord](/docs/discord) — DMs and server text channels via the official Discord bot gateway
+- [Feishu (Lark)](/docs/feishu) — Connect to Feishu/Lark bot via WebSocket long connection; DMs and groups
+- [Telegram](/docs/telegram) — DMs and groups via grammY; long polling or webhook
